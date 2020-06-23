@@ -2,24 +2,24 @@
 import java.util.Scanner;
 
 //Q1
-/*public class Practical2 {
+public class Practical2 {
     
      public static void main (String[] args) {
   
-       
-    	Scanner scan = new Scanner(System.in);
+       int num=0;
         
         System.out.println("Number SquareRoot");
         
-        for(int i=0; i<=20;i++){
+        for(int i=0; i<=10;i++){
      
-        System.out.printf("%-9d %.4f\n",i ,Math.sqrt(i)) ;
-        
+        System.out.printf("%-9d %.4f\n",num ,Math.sqrt(num)) ;
+       
+        num += 2;
         
         }
         
 }
-}*/
+}
 //Q2
 /*public class Practical2 {
 
